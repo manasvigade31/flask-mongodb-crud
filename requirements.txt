@@ -1,0 +1,8 @@
+Flask
+flask-pymongo
+flask-marshmallow
+pymongo
+flask-bcrypt
+python-dotenv
+flask-restful
+email-validator
