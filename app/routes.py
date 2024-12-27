@@ -59,14 +59,6 @@ def create_user():
     mongo.db.users.insert_one(new_user)  
     return jsonify({"message": "User created successfully"}), 201
 
-# @app.route('/login', methods=['POST'])
-# def login():
-#     data = request.get_json()
-#     user = mongo.db.users.find_one({"email": data['email']})
-#     if user and User.verify_password(user['password'], data['password']):
-#         return jsonify({"message": "Login successful"}), 200
-#     return jsonify({"message": "Invalid email or password"}), 401
-
 @app.route('/users/<id>', methods=['PUT'])
 def update_user(id):
     data = request.get_json()
