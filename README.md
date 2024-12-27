@@ -28,7 +28,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/manasvigade31/flask-mongodb-crud.git
    cd your-repo
 
 2. Set up a virtual environment (optional but recommended):
