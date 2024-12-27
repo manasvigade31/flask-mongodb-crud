@@ -37,21 +37,22 @@ Ensure you have the following installed:
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install dependencies:
+   ```bash
     pip install -r requirements.txt
 
-4. Running the Application
+5. Running the Application
 
     Build the Docker containers:
-
+     ```bash
     docker-compose build
-
+    ```
     Start the application:
-
+     ```bash
     docker-compose up
-
+    ```
     Access the API at http://127.0.0.1:5000/users
 
-5. API Endpoints
+6. API Endpoints
 
     User Endpoints
     
@@ -81,7 +82,7 @@ Ensure you have the following installed:
     Description: Deletes a user.
 
 
-6. Environment Variables:
+7. Environment Variables:
 
     Create a .env file in the project root with the following:
 
